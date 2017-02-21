@@ -442,12 +442,7 @@ Try it out! You can swipe through the slides and pinch your way to the overview.
 ## TRANSITION STYLES
 You can select from different transitions, like: 
 
-```{r echo = F, results = 'asis', comment = NA}
-transitions = c("cube", "page", "concave", "zoom", "linear", "fade", "none", "default")
-names(transitions) = gsub("^([a-z])", "\\U\\1", transitions, perl = TRUE)
-x = sprintf("[%s](?transition=%s#/transitions)", names(transitions), transitions)
-cat(paste(x, collapse = ' - '))
-```
+[Cube](?transition=cube#/transitions) - [Page](?transition=page#/transitions) - [Concave](?transition=concave#/transitions) - [Zoom](?transition=zoom#/transitions) - [Linear](?transition=linear#/transitions) - [Fade](?transition=fade#/transitions) - [None](?transition=none#/transitions) - [Default](?transition=default#/transitions)
 
 --- #themes
 
@@ -455,12 +450,7 @@ cat(paste(x, collapse = ' - '))
 
 Reveal.js comes with a few themes built in: 
 
-```{r echo = F, results = 'asis', comment = NA}
-themes = c("sky", "beige", "simple", "serif", "night", "default", "solarized", "moon")
-names(themes) = gsub("^([a-z])", "\\U\\1", themes, perl = TRUE)
-x = sprintf("[%s](?theme=%s#/themes)", names(themes), themes)
-cat(paste(x, collapse = ' - '))
-```
+[Sky](?theme=sky#/themes) - [Beige](?theme=beige#/themes) - [Simple](?theme=simple#/themes) - [Serif](?theme=serif#/themes) - [Night](?theme=night#/themes) - [Default](?theme=default#/themes) - [Solarized](?theme=solarized#/themes) - [Moon](?theme=moon#/themes)
 
 <small>* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the `<head>` using a `<link>`.</small>
 
@@ -632,10 +622,13 @@ $('ul.incremental li').addClass('fragment')
 
 ## Code with slide
 
-```{r eval = T}
+
+```r
 library(ggplot2)
 qplot(wt, mpg, data = mtcars)
 ```
+
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
 
 --- &vertical ds:soothe
 
