@@ -188,7 +188,7 @@ figure out code to customize transitions by slide -->
 }
 </style>
 
-# Test Two
+# Test Three
 
 <small> Pat Meehan | [PS Analytics Consulting](http://psanalyticsconsulting.com) </small>
 
