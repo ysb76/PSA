@@ -414,7 +414,7 @@ Difference in domain expertise, aggregation obscures truth
 <img src="./assets/img/digital-capability.png" height=400 class="imgframe"/>
 </center>
 
-<p class="fragment"> domain knowledge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; personal beliefs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; teaching background</p>
+<p class="fragment" style="font-size:.9em"> domain knowledge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; personal beliefs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; teaching background</p>
 
 <h3 class="fragment" style="padding-bottom:5em; color:#71e9f4">prior experiences</h3>
 
