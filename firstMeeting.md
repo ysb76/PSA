@@ -134,7 +134,7 @@ figure out code to customize transitions by slide -->
   text-align: center;
   }
 .custom3 h2 {
-  color: maroon;
+  color: #71e9f4; /*maroon;*/
   font-weight: 700;
   font-size: 62px;
   text-align: center;
@@ -416,7 +416,7 @@ Difference in domain expertise, aggregation obscures truth
 
 .fragment domain knowledge &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; personal beliefs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; teaching background
 
-.fragment <h3 style="padding-bottom:5em; color:#71e9f4">prior experiences</h3>
+<h3 class="fragment" style="padding-bottom:5em; color:#71e9f4">prior experiences</h3>
 
 *** =pnotes
 <h3 style="font-size:36px; color:darkslategrey; font-weight:700">How do leadership teams create strategic plans?</h3>
@@ -452,10 +452,10 @@ Sample data and/or dashboard.  Not longitudinal, without clear anchor (g4 math M
 
 ## Buddha
 
-</br>
+</br></br>
 > Nothing ever exists entirely alone. Everything is in relation to everything else.
 
-</br></br></br></br>
+</br></br></br>
 <!-- .fragment Agree:  Tufte, Cleveland, Tukey, Few, Kahneman -->
 .fragment <span style="text-transform: none; font-size:30px; color:#999;">Agree:  Tufte, Cleveland, Tukey, Few, Kahneman</span>
 
@@ -467,15 +467,20 @@ Few - perceptualedge.com
 
 --- .custom3
 
+</br>
 ## Interactive Visuals 
 
-</br></br></br></br></br></br>
-### *Overview first, zoom and filter, then details on demand*
+</br></br></br></br></br>
+<em>
+<h3 style="font-size:1.4em; color:white;">Overview first, </h3>
+<h3 style="font-size:1.8em; color:white;">zoom and filter, </h3>
+<span style="font-size:1.2em; color:white;">then details on demand</span>
+</em>
 
 <!-- </br></br> -->
 <!-- <span style="font-size:32px; color:white; text-align:center">*Overview first, zoom and filter, then details on demand*</span> -->
 
-</br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br>
 *Ben Schneiderman, University of Maryland Human-Computer Interaction Lab
 
 --- .custom2
@@ -518,7 +523,7 @@ Can't just build.  Need to understand something about how humans perceive inform
 
 </br>
 <center>
-<img src="./assets/img/Ed Leadship Data issue - 2009.jpg" height=250 width=250/></br>
+<img src="./assets/img/Ed Leadship Data issue - 2009.jpg" height=250/></br>
 **2009**
 </center>
 
